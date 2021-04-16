@@ -42,15 +42,15 @@ include "forgotEmail.php";
       <div class="item right">
         <div class="item circle_container">
           <center>
-              <form id = "login_form" class="circle bounce-anim pulse-anim" method="post">
-                  <img src="img/icons/user.svg" class ="user-icon inside_circle_item">
-                  <h4> Sign In </h4>
-                  <div class="error"> <?php echo $error ?> </div>
-                  <input type="text" class="inside_circle_item" placeholder="Enter Username" autocomplete="off" name="uname" required>
-                  <input type="password" class="inside_circle_item" placeholder="Enter Password" name="psw" required>
-                  <a id="forgot" href="#email"> Forgot Password? </a>
-                  <button type="submit" name="button_login">Login</button>
-              </form>
+            <form id = "login_form" class="circle bounce-anim pulse-anim" method="post">
+                <img src="img/icons/user.svg" class ="user-icon inside_circle_item">
+                <h4> Sign In </h4>
+                <div class="error"> <?php echo $error ?> </div>
+                <input type="text" class="inside_circle_item" placeholder="Enter Username" autocomplete="off" name="uname" required>
+                <input type="password" class="inside_circle_item" placeholder="Enter Password" name="psw" required>
+                <a id="forgot" href="#email"> Forgot Password? </a>
+                <button type="submit" name="button_login">Login</button>
+            </form>
           </center>
         </div>
       </div>
